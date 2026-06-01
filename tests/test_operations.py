@@ -14,5 +14,5 @@ def test_division_positive():
     assert division(6, 3) == 2
 
 def test_division_negative():
-    with pytest.raises(ZeroDivisionError):
+    with pytest.raises(ValueError):
         division(1, 0)
